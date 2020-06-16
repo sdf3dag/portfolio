@@ -1,0 +1,79 @@
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.body {
+    font-family: 'Special Elite';
+    font-size: 25px;
+}
+
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+
+
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 40px 40px;
+    font-size: 17px;
+    font-family: 'Special Elite';
+    
+}
+
+.container {
+    position: relative;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 3px;
+    background-color: black;
+  }
+  
+  .column {
+    flex: 25%;
+    max-width: 50%;
+    padding: 0 3px;
+  }
+
+  .column img {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    vertical-align: middle;
+    width: 100%; 
+  }
+
+
+@media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+.navbar {
+    background-color: black;
+  }
+
+  .nav-link {
+      font-family: 'Special Elite';
+  }
+
+  .jumbotron {
+    font-family: 'Special Elite';
+  }
