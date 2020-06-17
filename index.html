@@ -2,7 +2,7 @@
 <html>
     <head>
         <link href="css/portfolio.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/f431655a93.js" crossorigin="anonymous"></script>
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -18,43 +18,25 @@
     </head>
 
     <body>
-  
-      <!-- Jumbotron code -->
-      <!-- Open Weather Map API...not working at the moment -->
-      <div class="jumbotron">
-        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+
+      <header>
+        <div class="navbar navbar-expand-lg navbar-dark bg-transparent">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-item nav-link text-light" href="#">Home <span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link text-light" href="#">Features</a>
-              <a class="nav-item nav-link text-light" href="#">Pricing</a>
+              <a class="nav-item nav-link text-light" href="#">Home</a>
+              <a class="nav-item nav-link text-light" href="#">About</a>
+              <a class="nav-item nav-link text-light" href="#">Contact</a>
             </div>
           </div>
-        </nav>
-        <!-- Weather APP -->
-        <!-- <div class="container">
-          <div class="app-title">
-              <p>Weather</p>
-          </div>
-          <div class="notification"> </div>
-          <div class="weather-container">
-            <div class="weather-icon">
-              <img src="icons/unknown.png" alt="">
-            </div>
-            <div class="temperature-value">
-              <p>- °<span>F</span></p>
-            </div>
-            <div class="temperature-description">
-              <p> - </p>
-            </div>
-            <div class="location">
-              <p>-</p>
-            </div>
-          </div>
-        </div> -->
+        </div>
+      </header>
+  
+      <!-- Jumbotron code -->
+      <!-- Open Weather Map API...not working at the moment -->
+      <div class="jumbotron">
         <div class="d-flex justify-content-center col-md display-1">David Goff</div>
           <p class="d-flex justify-content-center col-md lead">Systems Administrator/Web Developer/Volunteer/Husband/Father</p>
             <div class="row text-center">
@@ -64,10 +46,11 @@
                   <li><a href="#" class="icoTwitter" title="Twitter"><i class="fab fa-twitter"></i></a></li>
                   <li><a href="#" class="icoInstagram" title="Instagram"><i class="fab fa-instagram"></i></a></li>
                   <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fab fa-linkedin"></i></a></li>
+                  <li><a href="#" class="icoGithub" title="Github"><i class="fab fa-github"></i></a></li>
                 </ul>
               </div>
             </div>
-        </div>
+      </div>
         
       <!--This portion is the carousel and profile pic/info -->
       <!-- Profile portion -->
@@ -109,6 +92,8 @@
           </div>
         </div>
 
+      <!-- Javascript "go to top" button -->
+      <a id="topBtn"></a>
 
       <!-- Footer Information -->
       <footer>
@@ -142,6 +127,7 @@
 
         <script src="js/bootstrap.bundle.js"></script>
         <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/topbutton.js"></script>
         <!-- <script src="js/weather.js"></script> -->
     </body>
 </html>
