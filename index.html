@@ -6,7 +6,7 @@
         <script src="https://kit.fontawesome.com/f431655a93.js" crossorigin="anonymous"></script>
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/bootstrap.min.css" rel="stylesheet">
-        <!-- <link href="css/weather.css" rel="stylesheet"> -->
+        <link href="css/weather.css" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
@@ -35,7 +35,7 @@
       </header>
   
       <!-- Jumbotron code -->
-      <!-- Open Weather Map API...not working at the moment -->
+      
       <div class="jumbotron">
         <div class="d-flex justify-content-center col-md display-1">David Goff</div>
           <p class="d-flex justify-content-center col-md lead">Systems Administrator/Web Developer/Volunteer/Husband/Father</p>
@@ -54,22 +54,36 @@
         
       <!--This portion is the carousel and profile pic/info -->
       <!-- Profile portion -->
-        <div class="container">
-          <div class="card">
-            <div class="row">
-              <div class="col-sm-5">
-                <img src="img/IMG_8266_1.jpg" style="width: 25rem;">
-              </div>
-              <div class="col-md-7">
-                <div class="card-body">
-                  <h2 class="card-title">Card title</h2>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-                  </p>
-                </div>
-              </div>
+      <div class="container">
+        <div class="card-deck">
+          <div class="card card-image">
+            <div class="card-body text-white d-flex flex-column justify-content-center">
+              <h5 class="card-title">Technical Services</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             </div>
           </div>
+          <div class="card">
+            <img class="card-img" src="img/IMG_8266_1.jpg" alt="about">
+              <div class="card-img-overlay text-white d-flex flex-column justify-content-center">
+                <div class="card-body text-white d-flex flex-column justify-content-center">
+                  <h5 class="card-title">About Me</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+          </div>
+          <div class="card">
+            <img class="card-img" src="img/network-technology.jpg" alt="experience">
+              <div class="card-img-overlay text-white d-flex flex-column justify-content-center">
+                <div class="card-body text-white d-flex flex-column justify-content-center">
+                  <h5 class="card-title">Experience</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div> 
         </div>
+      </div>
                 
         <!-- Carousel portion -->
         <div class="container">
@@ -98,8 +112,9 @@
       <!-- Footer Information -->
       <footer>
         <div class="container">
+          <img src="https://maps.googleapis.com/maps/api/staticmap?center=Mount Washington, KY&zoom=10&size=400x400&key=AIzaSyAc19NCdB1u62fOILu97x4i32OLnwW79uY"></img>
           <!-- Weather APP -->
-          <div class="container">
+          <!-- <div class="container">
             <div class="app-title">
               <p>Weather</p>
             </div>
@@ -117,9 +132,8 @@
               <div class="location">
                   <p>-</p>
               </div>
-          </div>
-      </div>
-          <p>This is space for the footer</p>
+          </div> -->
+      
         </div>
 
       </footer>
@@ -128,6 +142,9 @@
         <script src="js/bootstrap.bundle.js"></script>
         <script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/topbutton.js"></script>
+        <script src="js/googlemap.js"></script>
+        <!-- <script src="js/weatherapp.js"></script> -->
         <!-- <script src="js/weather.js"></script> -->
+        <script src="js/footerweather.js"></script>
     </body>
 </html>

@@ -16,6 +16,11 @@ body {
   background-repeat: no-repeat;
 }
 
+.card-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("developer-coding-in-php.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 /* CSS for Social Media Icons */
 ul.social-network {
@@ -93,7 +98,6 @@ ul.social-network li {
   text-align: center;
 }
 
-/* End of CSS for Social Media Icons */
 
 /* CSS for Footer */
 
@@ -102,6 +106,7 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 
 /* CSS for To The Top button */
 #topBtn {
@@ -140,8 +145,4 @@ footer {
   opacity: 1;
   visibility: visible;
 }
-
-
-
-
 
