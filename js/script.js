@@ -1,0 +1,1 @@
+var google_map_api = config.GOOGLE_MAP;
